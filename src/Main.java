@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         /* ćw 2 klasy */
         /* zad.1
             a) Stworzyć publiczną klasę Student z 2-ma polami String, 1 polem int i 1 polem boolean,
