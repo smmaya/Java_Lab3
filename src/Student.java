@@ -11,10 +11,10 @@ public class Student {
         this.numerKatalogu = numerKatalogu;
         this.status = status;
     }
-    public void niceDisplay(){
-        System.out.println("Imię : "+ this.firstName);
-        System.out.println("Nazwisko: "+ this.lastName);
-        System.out.println("Numer: "+ this.numerKatalogu);
+    public void displayObject(){
+        System.out.println("Imię: " + this.firstName);
+        System.out.println("Nazwisko: " + this.lastName);
+        System.out.println("Numer: " + this.numerKatalogu);
         if(!status){
             System.out.println("Status: Nieaktywny");
         } else {

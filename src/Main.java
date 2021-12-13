@@ -11,7 +11,7 @@ public class Main {
         students[2] = stu;
 
         for (Student student : students) {
-            student.niceDisplay();
+            student.displayObject();
             System.out.println("");
         }
     }
