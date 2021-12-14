@@ -27,12 +27,13 @@ public class Main {
             b) dodać studentów do Listy ArrayList,
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
+        // tu klasycznie
         Osoba os1 = new Osoba("Sławek", "Pierwszy", 123);
         Osoba os2 = new Osoba("Darek", "Drugi", 234);
         Osoba os3 = new Osoba("Marek", "Trzeci", 345);
         Osoba os4 = new Osoba("Magda", "Czwarta", 456);
         Osoba os5 = new Osoba("Kasia", "Piąta", 567);
-
+        // a tu trochę wydajniej dla garbage collectora
         Student[] students = new Student[5];
         Student stu = new Student(os1, WydzialEnum.FD);
         students[0] = stu;
