@@ -58,11 +58,12 @@ public class Pojazd {
     }
 
     public String toString(){
-        if(!mozeLatac) {
-            System.out.println("Nie, nie można nim laać.");
+        String latanie = "";
+        if(!mozeLatac){
+            latanie = "Nie, nie można nim laać.";
         } else {
-            System.out.println("Tak, ten pojazd lata.");
+            latanie = "Tak, ten pojazd lata.";
         }
-        return rodzaj + " " + marka + " " + nazwa + " " + iloscKol + " " + mozeLatac;
+        return rodzaj + " " + marka + " " + nazwa + " " + iloscKol + " " + latanie;
     }
 }
