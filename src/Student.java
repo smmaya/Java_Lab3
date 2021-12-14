@@ -1,11 +1,8 @@
 
-public class Student extends Osoba{
+public class Student{
     private Osoba osoba;
     private WydzialEnum wydzial;
 
-    public Student(String imie, String nazwisko, int indeks){
-        super(imie, nazwisko, indeks);
-    }
     public Student() {
     }
 
