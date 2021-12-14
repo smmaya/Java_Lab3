@@ -27,6 +27,26 @@ public class Main {
             b) dodać studentów do Listy ArrayList,
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
+        Osoba os1 = new Osoba("Sławek", "Pierwszy", 123);
+        Osoba os2 = new Osoba("Darek", "Drugi", 234);
+        Osoba os3 = new Osoba("Marek", "Trzeci", 345);
+        Osoba os4 = new Osoba("Magda", "Czwarta", 456);
+        Osoba os5 = new Osoba("Kasia", "Piąta", 567);
 
+        Student[] students = new Student[5];
+        Student stu = new Student(os1, WydzialEnum.FD);
+        students[0] = stu;
+        stu = new Student(os2, WydzialEnum.IS);
+        students[1] = stu;
+        stu = new Student(os3, WydzialEnum.PR);
+        students[2] = stu;
+        stu = new Student(os4, WydzialEnum.PR);
+        students[3] = stu;
+        stu = new Student(os5, WydzialEnum.IS);
+        students[4] = stu;
+
+        for (Student student : students) {
+            System.out.println(student);
+        }
     }
 }
