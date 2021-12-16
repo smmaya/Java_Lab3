@@ -47,7 +47,7 @@ public class Main {
         students[4] = stu;
 
         for (Student student : students) {
-            System.out.println(student);
+            System.out.println(student.doStringa());
         }
     }
 }

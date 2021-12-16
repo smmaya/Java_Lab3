@@ -2,13 +2,13 @@
 public class Osoba {
     private String imie;
     private String nazwisko;
-    private int indeks;
+    private Integer indeks;
 
     public Osoba(){
 
     }
 
-    public Osoba(String imie, String nazwisko, int indeks) {
+    public Osoba(String imie, String nazwisko, Integer indeks) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.indeks = indeks;
@@ -34,7 +34,7 @@ public class Osoba {
         return indeks;
     }
 
-    public void setIndeks(int indeks) {
+    public void setIndeks(Integer indeks) {
         this.indeks = indeks;
     }
 

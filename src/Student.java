@@ -27,7 +27,7 @@ public class Student{
         this.wydzial = wydzial;
     }
 
-    public String toString(){
+    public String doStringa(){
         return osoba + ", wydział: " + wydzial;
     }
 }
