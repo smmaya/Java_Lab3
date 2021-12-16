@@ -19,7 +19,6 @@ public class Motocykl extends Pojazd{
 
     @Override
     public String toString() {
-        return getRodzaj() + " " + getMarka() + " " + getNazwa() + " " + getIloscKol() + " " +
-                isMozeLatac() + " " + przeznaczenie;
+        return super.toString() + przeznaczenie;
     }
 }

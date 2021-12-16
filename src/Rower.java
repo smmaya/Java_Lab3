@@ -17,7 +17,6 @@ public class Rower extends Pojazd{
 
     @Override
     public String toString() {
-        return getRodzaj() + " " + getMarka() + " " + getNazwa() + " " + getIloscKol() + " " +
-                isMozeLatac() + " " + naIleOsob;
+        return super.toString() + " " + naIleOsob;
     }
 }

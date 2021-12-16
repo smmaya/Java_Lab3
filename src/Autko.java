@@ -28,7 +28,6 @@ public class Autko extends Pojazd{
 
     @Override
     public String toString() {
-        return getRodzaj() + " " + getMarka() + " " + getNazwa() + " " + getIloscKol() +
-                isMozeLatac() + " " + kolor + " " + pojemnosc;
+        return super.toString() + kolor + " " + pojemnosc;
     }
 }

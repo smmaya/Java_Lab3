@@ -49,7 +49,7 @@ public class Pojazd {
         this.iloscKol = iloscKol;
     }
 
-    public boolean isMozeLatac() {
+    public boolean getMozeLatac() {
         return mozeLatac;
     }
 
