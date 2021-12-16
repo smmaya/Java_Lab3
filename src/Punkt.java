@@ -1,9 +1,9 @@
 /* klasa Punkt */
 public class Punkt {
     /* stworzyć zmienne prywatne pX, pY, pZ */
-    int pX;
-    int pY;
-    int pZ;
+    private int pX = 0;
+    private int pY = 0;
+    private int pZ = 0;
 
     public Punkt() {
     }
@@ -63,8 +63,7 @@ public class Punkt {
     }
 
     public String toString(){
-        System.out.println("X:" + pX + " Y:" + pY + " Z:" + pZ);
-        return null;
+        return "X:" + this.pX + " Y:" + this.pY + " Z:" + this.pZ;
     }
     /* Stworzyć metody
         a) suma - sumująca wszystkie wartości w klasie

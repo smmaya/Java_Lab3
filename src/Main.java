@@ -9,17 +9,17 @@ public class Main {
         /* ćw 3 klasy */
         System.out.println("Wypisujemy wartości obu konstruktorów, pX i pX, pY, pZ");
         Punkt punktA = new Punkt(7);
-        punktA.toString();
+        System.out.println(punktA);
 
         Punkt punktB = new Punkt(1, 2, 3);
-        punktB.toString();
+        System.out.println(punktB);
         System.out.println("");
 
         System.out.println("Nadpisujemy wartości setterami:");
         punktA.setpX(2);
         punktA.setpY(4);
         punktA.setpZ(6);
-        punktA.toString();
+        System.out.println(punktA);
 
         System.out.println("");
         System.out.println("Wartości punktu A:");
@@ -29,8 +29,8 @@ public class Main {
         System.out.println("");
         System.out.println("Wartości punktu B:");
         System.out.println("X punktu B: " + punktB.getpX());
-        System.out.println("X punktu B: " + punktB.getpY());
-        System.out.println("X punktu B: " + punktB.getpZ());
+        System.out.println("Y punktu B: " + punktB.getpY());
+        System.out.println("Z punktu B: " + punktB.getpZ());
         System.out.println("");
         System.out.println("Suma wartości punktu B:");
         System.out.println(punktB.suma());
